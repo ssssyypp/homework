@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 50px;
+    width: 800px;
+    margin: 0 auto;
+    background:#C4FCEF;
+ }
+ ul li{
+    list-style: none;
+    /* 去掉列表的点  */
+ }
+ a{
+    text-decoration: none;
+    color: inherit;
+ }
+ .li1{
+    background-color: #4D8076;
+ }
+ .nav>li{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    color: #4B4453;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ .nav>li:hover{
+    color: #FEFEDF;
+    background-color:#4D8076;
+ }
+/* 以上为导航栏 */
+
+.box{
+    margin:0 auto;
+    padding:0;
+    width:800px;
+}
+.top{
+    height:100px;
+    line-height:200px;
+    background-color: #2C73D2;
+}
+/* 上面部分 */
+.center{
+    height:350px;
+    line-height:200px;
+    background-color: #008F7A;
+}
+/* 中间部分 */
+.bottom{
+    height:50px;
+    line-height:100px;
+    background-color: #0089BA;
+}
+/* 下面部分 */
